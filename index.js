@@ -22,7 +22,7 @@ class President {
    return "I am proud to be an American."
  }
 
-  sauyHi() {
+  sayHi() {
     return `Hi, my name is ${this.name}, I am from ${this.homestate}. I represent the ${this.politcalParty}s and was in office <yearsInOffice>.`
   }
 }
