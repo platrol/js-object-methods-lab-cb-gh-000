@@ -6,27 +6,16 @@ class President {
     this.yearsInOffice = yearsInOffice;
     this.homeState = homeState
   }
+  veto() {
+    return 'NO!';
+  };
+
+  passBill() {
+    return 'You can do that!'
+  }
+    
 }
-
-
-
-
-// describe('President', function() {
-//   let lyndonJohnson
-//   before(() => {
-//     lyndonJohnson = new President("Lyndon B Johnson", "Democrat", "1963-1969", "Texas")
-//   })
-//
-//   describe('Presidents Constructor Function', function() {
-//     it('can create a president with a name, home state, political party, and years in office', function() {
-//       expect(lyndonJohnson).toBeA(President)
-//       expect(lyndonJohnson.name).toEqual("Lyndon B Johnson")
-//       expect(lyndonJohnson.politicalParty).toEqual("Democrat")
-//       expect(lyndonJohnson.yearsInOffice).toEqual("1963-1969")
-//       expect(lyndonJohnson.homeState).toEqual("Texas")
-//     })
-//   })
-// 
+ 
 //   describe('veto()', function() {
 //     it('returns "NO!"', function() {
 //       expect(lyndonJohnson.veto()).toEqual("NO!")
