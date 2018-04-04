@@ -26,4 +26,3 @@ class President {
     returns `Hi, my name is ${this.name}, I am from ${this.homestate}. I represent the ${this.politcalParty}s and was in office <yearsInOffice>.`
   }
 }
-
